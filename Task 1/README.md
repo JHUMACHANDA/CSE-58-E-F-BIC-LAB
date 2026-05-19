@@ -172,3 +172,85 @@ print("The total is:", total)
 ```
 
 **You Do 8:** Write a function called `greet_user` that takes one parameter (`name`). Inside the function, return the string `"Welcome, [name]!"`. Call the function with your own name and print the result.
+
+
+
+
+
+
+### **Problem 1: Find the Second Maximum Number**
+
+**Description:**
+Write a program that takes a sequence of **space-separated positive integers** as input and finds the **second largest distinct number** in that sequence.
+
+You must account for edge cases. If a second maximum number does not exist (for example, if the input contains fewer than two unique numbers), your program should output `-1`.
+
+---
+
+### **Test Cases & Examples**
+
+**Test Case 1: Standard Input**
+Explanation: The maximum number is 99. The next highest distinct number is 45.
+
+```text
+Input:
+10 20 4 45 99
+
+Output:
+45
+
+```
+
+**Test Case 2: Maximum occurs multiple times**
+Explanation: The maximum number (10) appears twice. The second highest distinct number is 9.
+
+```text
+Input:
+10 10 8 9
+
+Output:
+9
+
+```
+
+**Test Case 3: No second maximum (All elements are the same)**
+Explanation: Because all elements are identical, there is no second distinct maximum number.
+
+```text
+Input:
+5 5 5 5
+
+Output:
+-1
+
+```
+
+**Test Case 4: Sequence is too short**
+Explanation: An input with only one element cannot have a second maximum.
+
+```text
+Input:
+3
+
+Output:
+-1
+
+```
+
+**Test Case 5: Empty Input**
+Explanation: If no numbers are provided, there is nothing to evaluate.
+
+```text
+Input:
+(Empty string / No input)
+
+Output:
+-1
+
+```
+
+
+
+
+
+
